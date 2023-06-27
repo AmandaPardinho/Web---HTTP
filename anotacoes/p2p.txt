@@ -1,0 +1,8 @@
+PEER-TO-PEER
+
+-outro modelo de comunicação na rede
+-usado no torrent
+-nesse modelo o cliente ajuda o servidor no trabalho, de modo que a tarefa é executada de maneira mais rápida
+    -não há uma divisão clara entre cliente e servidor
+    -cada cliente também é servidor e vice-versa
+-é um protocolo útil quando se precisa distribuir um trabalho ou quando há necessidade de baixar algo de vários locais diferentes
