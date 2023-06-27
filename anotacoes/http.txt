@@ -28,3 +28,4 @@ HTTP - HYPERTEXT TRANSFER PROTOCOL
         -o servidor responde com aquilo que foi pedido pelo cliente
         -a interação sempre será por texto
         -camada TCP (Transmission Control Protocol/Internet Protocol)(camada de transporte) => informa se a mensagem chegou ao destino com sucesso ou não
+-o modelo cliente-servidor tenta centralizar o trabalho no servidor
