@@ -16,4 +16,9 @@ URL
     -porta padrão para https tem número igual a 443
     -portas de número 1023* até 65535 são de uso livre
     -portas de número 0 a 1023 são reservadas para serviços padronizados
-    
+-domínio =>    
+    -DNS => sistema de nomes de domínios
+        -associa o nome do servidor ao seu endereço de IP
+        -é organizado de forma hierárquica (em forma de árvore) => facilita as buscas e a administração
+    -um domínio é uma área na web controlada por uma determinada empresa
+        -ele nomeia um site na web e facilita a navegação do usuário    
