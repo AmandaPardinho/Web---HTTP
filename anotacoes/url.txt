@@ -1,0 +1,8 @@
+URL
+
+-url => Localizador de Recursos Universal
+    -permite acessar arquivos HTML, imagens, etc que podem ser acessados em aplicações web, em dispositivos móveis, objetos conectados, etc
+-estrutura da url =>
+    -1a. parte => determina qual o protocolo usado para acessar a página
+    -2a parte (a partir do // até a última coisa antes da próxima /) => determina qual o servidor e qual a porta em que o recurso está armazenado
+    -3a parte (/ no final) => representa o caminho (raiz), ou seja, onde está o recurso dentro desse servidor
