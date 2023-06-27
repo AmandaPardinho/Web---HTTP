@@ -1,0 +1,7 @@
+HTTP - HYPERTEXT TRANSFER PROTOCOL
+
+-protocolo de comunicação usado para transferir dados na web
+-sempre há duas entidades se comunicando no http =>
+    -cliente
+    -servidor
+
