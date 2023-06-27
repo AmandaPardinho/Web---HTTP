@@ -1,7 +1,30 @@
 HTTP - HYPERTEXT TRANSFER PROTOCOL
 
 -protocolo de comunicação usado para transferir dados na web
+    -estabelece regras de comunicação entre o modelo cliente-servidor que funciona na web
 -sempre há duas entidades se comunicando no http =>
     -cliente
     -servidor
-
+-arquitetura do http =>
+    -cliente (navegador)
+    -servidor front end (terminal)
+    -servidor back end (terminal)
+-camadas da internet =>
+    -1a. camada => física
+     2a. camada => enlace
+        -camadas em que encontramos as comunicações físicas (wi-fi, conexão cabeada, 5G)
+    -3a. camada => rede
+        -conexão IP
+    -4a. camada => transporte
+        -contêm os protocolos TCP, UDP
+        -garante que as informações cheguem de um ponto A até um ponto B 
+    -5a camada => aplicação
+        -local em que se encontra o HTTP
+        -é um protocolo dessa camada
+-um protocolo é uma conversa ou interação que possui regras e que ocorre entre o cliente e o servidor
+    -regras =>
+        -sempre ter duas entidades interagindo (um cliente e um servidor)
+        -a interação é sempre iniciada pelo cliente (envio da requisição)
+        -o servidor responde com aquilo que foi pedido pelo cliente
+        -a interação sempre será por texto
+        -camada TCP (Transmission Control Protocol/Internet Protocol)(camada de transporte) => informa se a mensagem chegou ao destino com sucesso ou não
