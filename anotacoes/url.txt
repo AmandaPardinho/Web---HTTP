@@ -1,8 +1,19 @@
 URL
 
--url => Localizador de Recursos Universal
+-url => Localizador de Recursos Universal (Uniform Resource Locator)
     -permite acessar arquivos HTML, imagens, etc que podem ser acessados em aplicações web, em dispositivos móveis, objetos conectados, etc
 -estrutura da url =>
     -1a. parte => determina qual o protocolo usado para acessar a página
-    -2a parte (a partir do // até a última coisa antes da próxima /) => determina qual o servidor e qual a porta em que o recurso está armazenado
-    -3a parte (/ no final) => representa o caminho (raiz), ou seja, onde está o recurso dentro desse servidor
+    -2a parte (a partir do :// até a última coisa antes da próxima /) => determina qual o servidor e qual a porta em que o recurso está armazenado
+    -3a parte (/ no final) => representa o caminho (raiz ou recurso), ou seja, onde está o recurso dentro desse servidor
+-uri (Uniform Resource Identifier) vs url =>
+    -uma url é uma uri
+    -no contexto do desenvolvimento web, ambas as siglas podem ser usadas para se referir a endereços na web (são sinônimos)
+    -no entanto, nem toda uri é uma url =>
+        -uri's podem identificar um recurso sem definir um endereço e um protocolo
+-portas =>
+    -a maioria dos sites usa uma porta padrão que já é especificada no padrão do http (porta padrão tem o número igual a 80) 
+    -porta padrão para https tem número igual a 443
+    -portas de número 1023* até 65535 são de uso livre
+    -portas de número 0 a 1023 são reservadas para serviços padronizados
+    
