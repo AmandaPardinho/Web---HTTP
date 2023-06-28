@@ -1,0 +1,5 @@
+FORMATO DAS MENSAGENS HTTP
+
+-linha inicial => tem as principais informações sobre a requisição
+-cabeçalhos => contêm os metadados sobre a requisição
+-corpo da requisição  
