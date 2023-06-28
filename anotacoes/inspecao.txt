@@ -1,0 +1,8 @@
+PRINCIPAIS MÉTODOS HTTP
+
+-POST => criar (create)
+-GET => ler (read)
+-PUT => atualizar (update)
+-DELETE => apagar (delete)
+
+-CRUD
