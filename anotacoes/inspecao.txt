@@ -1,8 +1,13 @@
 PRINCIPAIS MÉTODOS HTTP
 
--POST => criar (create)
--GET => ler (read)
--PUT => atualizar (update)
--DELETE => apagar (delete)
-
--CRUD
+-CRUD =>  
+    -POST => criar (create)
+    -GET => ler (read)
+    -PUT => atualizar (update)
+    -DELETE => apagar (delete)
+-o servidor não guarda estado =>
+    -necessita ser lembrado
+    -sessão => tempo que o usuário passa logado
+        -gera token
+    -cookie => mecanismo para armazenar os dados no cliente
+        
