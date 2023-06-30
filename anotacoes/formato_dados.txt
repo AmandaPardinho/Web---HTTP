@@ -1,0 +1,8 @@
+FORMATO DOS DADOS
+
+-content-type => 
+    -determina o formato do corpo da mensagem
+    -segue uma regra definida 
+-accept => 
+    -usado quando o cliente quer informar o servidor que ele quer a resposta num formato específico
+    
