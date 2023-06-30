@@ -1,0 +1,12 @@
+HTTP/1.1 VS HTTP/2
+
+-http/1.1 =>
+    -requisições sequenciais
+    -cabeçalhos textuais
+    -request obrigatório
+-http/2 =>
+    -multiplexação =>
+        -economia de recursos
+        -mais rápido
+    -compactação de cabeçalhos
+    -server push
