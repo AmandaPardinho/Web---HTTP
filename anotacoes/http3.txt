@@ -1,0 +1,7 @@
+HTTP/3 E PROTOCOLO QUIC
+
+-QUIC => 
+    -é uma variação do UDP
+    -garante que a mensagem chegou
+    -inclui o TLS => permite criar conexões de https
+    -maior velocidade
